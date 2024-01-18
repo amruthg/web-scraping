@@ -8,6 +8,6 @@ In most of the cases you are not allowed to scrape from websites  because:
   >too much data makes too many requests resulting in server crash.
 
 to download the beautiful soup library for specific html parsing use the below code
-...
+'''
 python -m pip install beautifulsoup4
-...
+'''
