@@ -9,7 +9,5 @@ In most of the cases you are not allowed to scrape from websites  because:
 
 to download the beautiful soup library for specific html parsing use the below code
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+$ python -m pip install beautifulsoup4
 ```
