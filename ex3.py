@@ -19,13 +19,13 @@ print(soup.get_text())
 
 
 
-#if you want the type og tag from the variable holding a tag object
+#if we want the type of tag from the variable holding a tag object
 #then use the .name 
 
 image1, image2 = soup.find_all("img")
 print(image1.name)
 
-#You can access the HTML attributes of the Tag object by putting their names between square brackets, just 
+#we can access the HTML attributes of the Tag object by putting their names between square brackets, just 
 #as if the attributes were keys in a dictionary.
 
 image1["src"]    #gives the src attribute 
@@ -34,9 +34,9 @@ image2["src"]    #gives the src attribute
 #Certain tags in HTML documents can be accessed by properties of the Tag object.
 print(soup.title)      #gives the title of the html file
 
-#Beautiful Soup automatically cleans up the tags for you
+#Beautiful Soup automatically cleans up the tags for us
 
-#You can also retrieve just the string between the title tags with the .string property of the Tag object:
+#we can also retrieve just the string between the title tags with the .string property of the Tag object:
 print(soup.title.string)
 
 #One of the features of Beautiful Soup is the ability to search for specific kinds of tags whose attributes match certain values.
